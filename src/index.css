@@ -5,5 +5,17 @@
 
     --dsct-color-font-primary: #FFFFFF;
     --dsct-color-font-secondary: #5E5E5E;
+}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.dsct-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
