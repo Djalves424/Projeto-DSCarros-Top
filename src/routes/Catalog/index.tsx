@@ -1,5 +1,6 @@
 import "./styles.css";
 import Header from "../../components/Header";
+import Description from "../../components/Description";
 
 export default function Catalog() {
   return (
@@ -7,7 +8,9 @@ export default function Catalog() {
       <Header />
       <main className="dsct-catalog-main">
         <section id="dsct-catalog-section" className="dsct-container">
-          <div></div>
+          <div className="dsct-description-container">
+            <Description />
+          </div>
         </section>
       </main>
     </>

@@ -1,0 +1,10 @@
+.dsct-description {
+    font-size: 32px;
+    width: 100%;
+    color: var(--dsct-color-font-secondary);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
