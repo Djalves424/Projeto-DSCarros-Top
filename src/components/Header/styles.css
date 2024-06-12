@@ -1,0 +1,12 @@
+header {
+    padding: 0 20px;
+    background-color: var(--dsct-color-bg-primary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--dsct-color-font-primary);
+    font-size: 24px;
+}
