@@ -1,16 +1,20 @@
 header {
     padding: 0 20px;
-    background-color: var(--dsct-color-bg-primary);
+    background-color: var(--dsct-color-bg-tertiary);
     height: 70px;
     display: flex;
     align-items: center;
 }
 
 header h1 {
-    padding: 0 20px;
-    color: var(--dsct-color-font-primary);
+    color: var(--dsct-color-font-tertiary);
     font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media(min-width: 720px) {
+    header h1 {
+        font-size: 24px;
+    }
 }

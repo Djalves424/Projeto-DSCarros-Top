@@ -1,10 +1,17 @@
 .dsct-description {
-    font-size: 32px;
-    width: 100%;
-    color: var(--dsct-color-font-secondary);
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--dsct-color-font-primary);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Poppins";
+}
+
+@media(min-width: 720px) {
+    .dsct-description {
+        text-align: center;
+        font-size: 32px;
+        font-family: "Poppins";
+        color: var(--dsct-color-font-primary);
+    }
 }
