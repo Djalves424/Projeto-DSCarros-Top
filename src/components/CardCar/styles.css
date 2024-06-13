@@ -26,16 +26,16 @@
 }
 
 .dsct-card-car p {
-    font-size: 20px;
     color: var(--dsct-color-font-primary);
+    font-size: 16px;
     text-align: center;
     font-weight: 700;
 }
 
 @media(min-width: 720px) {
     .dsct-card-car p {
-        font-size: 20px;
         color: var(--dsct-color-font-primary);
+        font-size: 20px;
         text-align: center;
         font-weight: 700;
     }
