@@ -3,7 +3,7 @@
     padding: 10px;
     margin-bottom: 30px;
     width: 280px;
-    border: 1px solid(--dsct-color-bg-tertiary);
+    border: 1px solid var(--dsct-color-bg-tertiary);
 }
 
 @media(min-width: 720px) {
